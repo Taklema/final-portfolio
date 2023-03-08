@@ -4,13 +4,37 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #0F3C33;
+    /* background-color: #0F3C33; */
+    background: linear-gradient(-45deg,#070707, #09241E);
+    background-size: 200% 200%;
+    animation: animate 5s ease infinite;
+}
+@keyframes animate {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+header nav{
+   background-color: azure;
+}
+.icon a span:hover{
+    background-color: #09241E;
+    border-radius: 3px;
 }
 .icon{
     display: flex;
 }
 .menu-text{
-    color: #D8A525;
+    color: #D4AF37;
 }
 #section-one .container .row h1{
     margin: 3% 0;
@@ -22,8 +46,12 @@ body{
     z-index: -1;
 } */
 .card-body{
-    background-color: #0F3C33;
+    background-color: #09241E;
+}
+footer{
+    background-color: azure;
 }
 .footer-text{
     color: #0F3C33;
 }
+

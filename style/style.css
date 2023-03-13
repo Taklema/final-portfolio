@@ -5,9 +5,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     /* background-color: #0F3C33; */
-    background: linear-gradient(-45deg,#070707, #09241E);
+    background: linear-gradient(-60deg,#070707, #09241E);
     background-size: 200% 200%;
-    animation: animate 5s ease infinite;
+    animation: animate 10s ease infinite;
 }
 @keyframes animate {
     0%{
@@ -45,6 +45,7 @@ header nav{
     bottom: 0;
     z-index: -1;
 } */
+
 .card-body{
     background-color: #09241E;
 }
@@ -54,4 +55,6 @@ footer{
 .footer-text{
     color: #0F3C33;
 }
-
+.footer-text a{
+    color: #0F3C33;
+}
